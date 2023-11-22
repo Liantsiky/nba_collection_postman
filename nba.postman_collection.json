@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "9bf77002-0d66-4549-9ca2-41ff273c19c3",
+		"name": "nba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30986502"
+	},
+	"item": [
+		{
+			"name": "getAllEquipeSaisons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "massive-beginner-production.up.railway.app/api/equipe_saisons",
+					"host": [
+						"massive-beginner-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"equipe_saisons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllMatchs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "massive-beginner-production.up.railway.app/api/matchs",
+					"host": [
+						"massive-beginner-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"matchs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllJoueurs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "massive-beginner-production.up.railway.app/api/joueurs",
+					"host": [
+						"massive-beginner-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"joueurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllEquipes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "massive-beginner-production.up.railway.app/api/equipes",
+					"host": [
+						"massive-beginner-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"equipes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all Statisques",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "massive-beginner-production.up.railway.app/api/statistiques",
+					"host": [
+						"massive-beginner-production",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"api",
+						"statistiques"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert statistiques joueurs",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
